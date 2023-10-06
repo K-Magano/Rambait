@@ -4,6 +4,8 @@ import Navbar from "../layout/navbar";
 import Hero from "../layout/Hero";
 import WelcomePage from "./welcome";
 import MainPage from "../pages/main";
+import ContactForm from "./footer";
+
 export default function Home() {
   return (
     <>
@@ -17,6 +19,7 @@ export default function Home() {
       <Hero />
       <WelcomePage />
       <MainPage />
+      <ContactForm />
     </>
   );
 }

@@ -6,6 +6,8 @@ import FAQ from "@/component/mainContent/faq/faq";
 import Testimonials from "@/component/mainContent/testimonials/testimonials";
 import LatestNews from "@/component/mainContent/news/latestnews";
 import ContactUs from "@/component/mainContent/contact/contact";
+import ResponsiveCarousel from "@/component/mainContent/carousel/carousel";
+
 function MainPage() {
   return (
     <div>
@@ -16,6 +18,7 @@ function MainPage() {
       <Testimonials />
       <LatestNews />
       <ContactUs />
+      <ResponsiveCarousel />
     </div>
   );
 }

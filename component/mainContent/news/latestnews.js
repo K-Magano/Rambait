@@ -30,7 +30,6 @@ function LatestNews() {
                 width={250}
                 height={150}
                 alt="good news"
-                layout="responsive"
               />
               Magna labore ea velit laborum cupidatat culpa dolore. Quis ex
               eiusmod Lorem incididunt aute mollit. Minim consectetur incididunt
@@ -46,7 +45,6 @@ function LatestNews() {
                 width={250}
                 height={150}
                 alt="good news"
-                layout="responsive"
               />
               Magna labore ea velit laborum cupidatat culpa dolore. Quis ex
               eiusmod Lorem incididunt aute mollit. Minim consectetur incididunt
@@ -61,7 +59,6 @@ function LatestNews() {
                 width={250}
                 height={150}
                 alt="good news"
-                layout="responsive"
               />{" "}
               Magna labore ea velit laborum cupidatat culpa dolore. Quis ex
               eiusmod Lorem incididunt aute mollit. Minim consectetur incididunt

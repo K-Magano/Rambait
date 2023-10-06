@@ -25,6 +25,7 @@ const MenuOptions = [
 
 //Next
 import Link from "next/link";
+import styles from "./navbar.module.css";
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -38,7 +39,7 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="static" className={styles.nav}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <AdbIcon sx={{ display: { xs: "none", md: "flex" }, mr: 1 }} />

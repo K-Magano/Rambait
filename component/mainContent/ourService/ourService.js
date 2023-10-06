@@ -30,7 +30,6 @@ function OurService() {
                 width={250}
                 height={150}
                 alt="Picture of the author"
-                layout="responsive"
               />
               Grid 1 Magna labore ea velit laborum cupidatat culpa dolore. Quis
               ex eiusmod Lorem incididunt aute mollit. Minim consectetur
