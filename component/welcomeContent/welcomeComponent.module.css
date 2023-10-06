@@ -1,0 +1,12 @@
+.welcomeText {
+  background-color: pink;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.welcomeText h2 {
+  font-size: 50px;
+}

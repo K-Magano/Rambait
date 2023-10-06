@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  background-color: aqua;
+  align-content: center;
+  text-align: center;
+  padding-left: 35%;
+}

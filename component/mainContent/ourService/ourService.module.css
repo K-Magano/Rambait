@@ -1,0 +1,36 @@
+.service {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-top: 10%;
+  margin-top: 2%;
+  margin-right: 50px;
+  background-color: #0d94d5;
+}
+
+.service h2 {
+  color: antiquewhite;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-gap: 30px;
+  /* background-color: antiquewhite; */
+  padding: 5%;
+}
+
+.grid .grid1 {
+  background-color: #0c6590;
+  padding: 20%;
+}
+
+.grid .grid2 {
+  background-color: #0d94d5;
+  padding: 20%;
+}
+.grid .grid3 {
+  background-color: #74cbf5;
+  padding: 20%;
+}

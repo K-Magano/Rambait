@@ -1,0 +1,10 @@
+.layout {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  margin-top: 10%;
+  margin-top: 2%;
+  margin-right: 50px;
+  background-color: #f57dc1;
+}

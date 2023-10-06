@@ -1,7 +1,9 @@
 import Head from "next/head";
 
-import Navbar from "@/layout/navbar";
-
+import Navbar from "../layout/navbar";
+import Hero from "../layout/Hero";
+import WelcomePage from "./welcome";
+import MainPage from "../pages/main";
 export default function Home() {
   return (
     <>
@@ -11,8 +13,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Navbar />
+      <Hero />
+      <WelcomePage />
+      <MainPage />
     </>
   );
 }
